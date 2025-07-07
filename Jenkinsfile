@@ -8,6 +8,7 @@ pipeline {
         REMOTE_HOST = '203.0.113.10' // Replace with public IP of your Tomcat server
         REMOTE_TOMCAT_DIR = '/opt/tomcat/webapps/' // Replace with your actual webapps path
     }
+    
 
     stages {
         stage('Checkout') {
